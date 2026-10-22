@@ -1,0 +1,5 @@
+Sabse pehle, I thought ki inventory ke items ko ek list mein store karungi and then create a menu to manage them.
+ Maine `while` loop and `if-elif-else` statements ka use karke different operations banaye, along with `append()`, `remove()` and `sort()` methods.
+ While writing the code, I faced an input-conversion error because `int(input())` raises a `ValueError` when the user enters non-numeric input, which can unexpectedly terminate the program.
+ Ek challenging issue was handling duplicate items and case-sensitive input, because Python treats `"Pen"` and `"pen"` as different items. I also realized that sorting the list changes the original order of inventory items.
+ Finally, I tested different scenarios and understood that proper input validation, duplicate handling, and maintaining data consistency are important for making the program more reliable.

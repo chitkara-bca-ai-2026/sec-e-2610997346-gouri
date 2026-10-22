@@ -1,0 +1,17 @@
+### My Thinking Process
+
+First, I understood the flowchart and identified all the tasks. Maine pehle flowchart ko samjha aur decide kiya ki program mein kya-kya options hone chahiye.
+I used a list to store books, tuples for book details, and sets for library categories and the student wishlist. Isse data ko organize karna easy ho gaya.
+I planned to create a menu with six options and use a while loop to repeat the menu until the user exits.
+I decided to use if-elif-else statements to perform different tasks according to the user's choice. Har option ke liye alag logic banaya.
+For gap analysis, I used intersection, difference, and union to find common, missing, and combined categories. Isse library ki requirements samajhna easy ho gaya.
+Finally, I used the break statement to exit the program and planned to test all options. Maine check kiya ki program correctly work kare aur invalid choices ko bhi handle kare.
+
+
+
+### Errors I Made While Writing the Code
+
+ I got confused between `append()` and `add()`. List mein `append()` aur set mein `add()` use hota hai.
+ I forgot that `input()` returns a string. Isliye choice ko string ke form mein compare karna hota hai.
+ I found gap analysis confusing. Intersection common, difference missing, aur union combined categories show karta hai.
+ I almost forgot to update the category set after adding a book. Isse gap analysis ka result wrong ho sakta tha.
